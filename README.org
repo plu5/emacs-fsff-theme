@@ -1,0 +1,52 @@
+* emacs-fsff-theme
+# created 2016-10-31 00:49
+** Description
+My theme for emacs; based on and named after the excellent [[https://github.com/WJCFerguson/emacs-faff-theme][faff-theme]] by [[https://github.com/WJCFerguson/][WJCFerguson]].
+
+[[./fsff-theme.png]]
+(visible in this screenshot are [[https://github.com/sabof/org-bullets][org-bullets]], [[https://github.com/Malabarba/smart-mode-line][smart-mode-line]], [[https://github.com/plu5/smart-mode-line-powerline2][smart-mode-line-powerline2-theme]], Source Code Pro font)
+
+It is built around an ivory3 background, with support for:
+- [[https://github.com/milkypostman/powerline/][Powerline]]
+- [[https://github.com/Malabarba/smart-mode-line][Smart-mode-line]]
+- [[https://github.com/emacs-helm/helm][Helm]]
+- Ido
+- Org-mode
+- [[https://github.com/magit/magit][Magit]]
+- [[https://github.com/Fanael/rainbow-delimiters][Rainbow delimiters]]
+- Term
+- [[https://github.com/bmag/imenu-list][Imenu-list]]
+- [[https://gitlab.com/iankelling/visible-mark][Visible mark]]
+
+This theme is meant for windowed emacs and looks bad in ~-nw~. You can set it to load only in windowed mode:
+#+BEGIN_SRC emacs-lisp
+  (if window-system
+      (load-theme 'fsff t))
+#+END_SRC
+
+** Usage
+#+BEGIN_SRC emacs-lisp
+  (add-to-list 'custom-theme-load-path "/path/to/directory/containing/theme/")
+  (load-theme 'fsff t)
+#+END_SRC
+Alternatively you can place it in folders already in the ~custom-theme-load-path~, like ~custom-theme-directory~ or the folder ~themes~ in ~data-directory~ (for me it is ~/usr/share/emacs/<version>/etc/themes/~).
+
+** Suggested customisation
+I suggest you set ~org-src-block-faces~ variable, e.g.
+#+BEGIN_SRC emacs-lisp
+  (setq org-src-block-faces '(("emacs-lisp" (:foreground "grey30"))
+                              ("python" (:foreground "grey30"))
+                              ("bash" (:foreground "grey30"))))
+#+END_SRC
+this will determine the face of the normal text in org source blocks. Otherwise the face used is ~org-block~ which I have set to inherit ~shadow~.
+
+And I should mention that for highlighting you need to set
+#+BEGIN_SRC emacs-lisp
+  (setq org-src-fontify-natively t)
+#+END_SRC
+
+# todo:
+# test with emacs -Q
+# one problem i found is Org Block Begin Line says no customisation data; not intended to be customised. nothing in the source org-faces.el says it shouldn’t be customised that i could find
+# org-hide, check fringe faces
+# the autoload is for when it is loaded with package.el, see http://batsov.com/articles/2012/02/19/color-theming-in-emacs-reloaded/
