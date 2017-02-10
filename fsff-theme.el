@@ -191,6 +191,7 @@
  
  '(sml/process ((t (:foreground "white" :background "gold4"))))
  '(yascroll:thumb-fringe ((t (:foreground "grey70" :background "grey70"))))
+ '(eros-result-overlay-face ((t (:foreground "grey70" :background "grey20"))))
 
  '(ido-first-match ((t (:background "white"))))
  '(ido-only-match ((t (:inherit ido-first-match))))
