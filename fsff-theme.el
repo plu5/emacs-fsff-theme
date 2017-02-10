@@ -173,10 +173,10 @@
  '(flycheck-warning ((t (:underline (:color "grey60" :style wave)))))
  '(hl-line ((t (:background "gold"))))
 
- '(imenu-list-entry-face-0 ((t (:inherit outline-1))))
- '(imenu-list-entry-face-1 ((t (:inherit outline-2))))
- '(imenu-list-entry-face-2 ((t (:inherit outline-3))))
- '(imenu-list-entry-face-3 ((t (:inherit outline-4))))
+ '(imenu-list-entry-face-0 ((t (:foreground "black"))))
+ '(imenu-list-entry-face-1 ((t (:foreground "grey20"))))
+ '(imenu-list-entry-face-2 ((t (:foreground "grey40"))))
+ '(imenu-list-entry-face-3 ((t (:foreground "grey60"))))
  
  '(rainbow-delimiters-depth-1-face ((t (:foreground "#e91e63"))))
  '(rainbow-delimiters-depth-2-face ((t (:foreground "#1565c0"))))
