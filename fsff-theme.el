@@ -122,7 +122,7 @@
  '(org-agenda-done ((((class color) (min-colors 16) (background light)) (:foreground "#9b9"))))
  '(org-agenda-structure ((t (:background "white" :foreground "Blue3" :box (:line-width 1 :color "grey75" :style pressed-button)))))
  '(org-checkbox ((t (:weight ultrabold :foreground "white"))))
- '(org-hide ((t (:background "#c6c6b9" :foreground "#c6c6b9"))))
+ '(org-hide ((t (:background "#c8c8bb" :foreground "#c8c8bb"))))
  '(org-code ((t (:foreground "navy"))))
  '(org-latex-and-related ((t (:foreground "#766458"))))
  '(org-special-keyword ((t (:inherit shadow))))
