@@ -174,7 +174,7 @@
  '(hl-line ((t (:background "gold"))))
 
  '(imenu-list-entry-face-0 ((t (:foreground "black"))))
- '(imenu-list-entry-face-1 ((t (:foreground "grey20"))))
+ '(imenu-list-entry-face-1 ((t (:foreground "grey25"))))
  '(imenu-list-entry-face-2 ((t (:foreground "grey40"))))
  '(imenu-list-entry-face-3 ((t (:foreground "grey60"))))
  
