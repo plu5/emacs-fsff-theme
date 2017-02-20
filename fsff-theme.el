@@ -3,7 +3,7 @@
 ;; Copyright (C) 2003-2014 Free Software Foundation, Inc.
 
 ;; URL: https://github.com/plu5/emacs-fsff-theme
-;; Version: 20170208.15:18
+;; Version: 20170220.20:59
 ;; Keywords: color theme
 
 ;; This file is not part of GNU Emacs.
@@ -55,7 +55,7 @@
  '(powerline-active2 ((t (:inherit mode-line :background "gold4"))))
  '(powerline-inactive1 ((t (:inherit mode-line-inactive :background "grey85" :foreground "grey20"))))
  '(powerline-inactive2 ((t (:inherit mode-line-inactive :background "white" :foreground "grey20"))))
-  
+
  ;; from alect-dark
  '(show-paren-mismatch  ((t (:foreground "#e9e9e9" :background "#ea3838"))))
  '(show-paren-match     ((t (:foreground "#e9e9e9" :background "#3cb370"))))
@@ -148,10 +148,9 @@
  '(speedbar-file-face ((t (:foreground "grey10"))))
  '(speedbar-selected-face ((t (:foreground "white" :underline t))))
  '(speedbar-selected-face ((t (:foreground "black" :background "gold" :weight bold))))
- '(Pe/directory-face ((t (:foreground "white" :weight ultrabold)))) 
- '(pe/file-face ((t (:foreground "grey10")))) 
+ '(Pe/directory-face ((t (:foreground "white" :weight ultrabold))))
+ '(pe/file-face ((t (:foreground "grey10"))))
  '(sh-heredoc ((t (:foreground "tan4"))))
- '(success ((t (:foreground "darkgreen" :weight bold))))
  '(warning ((t (:foreground "DarkOrange3" :weight bold))))
 
  '(visible-mark-active ((t (:background "gold"))))
