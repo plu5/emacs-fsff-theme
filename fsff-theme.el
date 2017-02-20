@@ -38,11 +38,6 @@
 
  '(default ((t (:foreground "black" :background "ivory3"))))
  '(fringe ((t (:inherit default :foreground "grey40" :background "#c6c6b9"))))
- '(mode-line ((t (:background "gold" :foreground "black" :box nil))))
- '(mode-line-inactive ((t :foreground "grey20" :background "grey90")))
- '(mode-line-buffer-id ((t (:weight bold))))
- '(mode-line-emphasis ((t (:weight bold))))
- '(mode-line-highlight ((t (:background "snow" :inherit (highlight)))))
  '(custom-button ((((type x w32 mac) (class color)) (:background "grey85" :foreground "black" :box (:line-width 1 :style released-button)))))
  '(tool-bar ((default (:foreground "black" :box (:line-width 1 :style released-button))) (((type x w32 mac) (class color)) (:background "grey92"))))
  '(vertical-border ((t (:foreground "ivory4"))))
@@ -50,6 +45,17 @@
  '(highlight ((t (:background "white"))))
  '(trailing-whitespace ((t (:background "gray90"))))
 
+ '(mode-line ((t (:foreground "grey30" :background "gold" :box nil))))
+ '(mode-line-inactive ((t :foreground "grey30" :background "grey90")))
+ '(mode-line-highlight ((t (:background "snow" :inherit (highlight)))))
+ '(mode-line-buffer-id ((t (:foreground "black" :weight bold))))
+ '(mode-line-emphasis ((t (:foreground "grey30" :weight bold))))
+
+ '(powerline-active1 ((t (:inherit mode-line :background "gold3"))))
+ '(powerline-active2 ((t (:inherit mode-line :background "gold4"))))
+ '(powerline-inactive1 ((t (:inherit mode-line-inactive :background "grey85" :foreground "grey20"))))
+ '(powerline-inactive2 ((t (:inherit mode-line-inactive :background "white" :foreground "grey20"))))
+  
  ;; from alect-dark
  '(show-paren-mismatch  ((t (:foreground "#e9e9e9" :background "#ea3838"))))
  '(show-paren-match     ((t (:foreground "#e9e9e9" :background "#3cb370"))))
@@ -135,12 +141,7 @@
  '(outline-6 ((t (:slant italic :foreground "#710080"))))
  '(outline-7 ((t (:slant italic :foreground "#2d0078"))))
  '(outline-8 ((t (:slant italic :foreground "#000f70"))))
- 
- '(powerline-active1 ((t (:inherit mode-line :background "gold3")))) ; 4
- '(powerline-active2 ((t (:inherit mode-line :background "gold4")))) ; 3
- '(powerline-inactive1 ((t (:inherit mode-line-inactive :background "grey85" :foreground "grey20"))))
- '(powerline-inactive2 ((t (:inherit mode-line-inactive :background "white" :foreground "grey20"))))
- 
+
  '(speedbar-separator-face ((t (:background "white"))))
  '(speedbar-button-face ((t (:foreground "white" :weight ultrabold))))
  '(speedbar-highlight-face ((t (:background "gold"))))
