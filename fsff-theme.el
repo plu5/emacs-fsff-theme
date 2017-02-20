@@ -189,7 +189,6 @@
  '(rainbow-delimiters-depth-9-face ((t (:foreground "#827717"))))
  '(rainbow-delimiters-unmatched-face ((t (:foreground "#212121" :background "#EF6C00"))))
  
- '(sml/process ((t (:foreground "white" :background "gold4"))))
  '(yascroll:thumb-fringe ((t (:foreground "grey70" :background "grey70"))))
  '(eros-result-overlay-face ((t (:foreground "grey70" :background "grey20"))))
 
