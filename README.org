@@ -4,11 +4,11 @@
 My theme for emacs; based on and named after the excellent [[https://github.com/WJCFerguson/emacs-faff-theme][faff-theme]] by [[https://github.com/WJCFerguson/][WJCFerguson]].
 
 [[./fsff-theme.png]]
-(visible in this screenshot are [[https://github.com/sabof/org-bullets][org-bullets]], [[https://github.com/Malabarba/smart-mode-line][smart-mode-line]], [[https://github.com/plu5/smart-mode-line-powerline2][smart-mode-line-powerline2-theme]], Source Code Pro font)
+
+/(visible in this screenshot are [[https://github.com/bmag/imenu-list][Imenu-list]],  [[https://github.com/sabof/org-bullets][org-bullets]], [[https://github.com/Malabarba/smart-mode-line][smart-mode-line]], [[https://github.com/plu5/smart-mode-line-powerline2][smart-mode-line-powerline2-theme]], Source Code Pro font)/
 
 It is built around an ivory3 background, with support for:
 - [[https://github.com/milkypostman/powerline/][Powerline]]
-- [[https://github.com/Malabarba/smart-mode-line][Smart-mode-line]]
 - [[https://github.com/emacs-helm/helm][Helm]]
 - Ido
 - Org-mode
@@ -44,9 +44,3 @@ And I should mention that for highlighting you need to set
 #+BEGIN_SRC emacs-lisp
   (setq org-src-fontify-natively t)
 #+END_SRC
-
-# todo:
-# test with emacs -Q
-# one problem i found is Org Block Begin Line says no customisation data; not intended to be customised. nothing in the source org-faces.el says it shouldn’t be customised that i could find
-# org-hide, check fringe faces
-# the autoload is for when it is loaded with package.el, see http://batsov.com/articles/2012/02/19/color-theming-in-emacs-reloaded/
