@@ -159,10 +159,11 @@
 
  '(flycheck-error-list-warning ((t (:foreground "grey60"))))
  '(flycheck-fringe-warning ((t (:foreground "grey60"))))
- '(company-scrollbar-bg ((t (:background "ivory3"))))
- '(company-scrollbar-fg ((t (:background "snow"))))
- '(company-tooltip ((t (:foreground "black" :background "ivory4")))) ; background #c7c7b9
+ '(flycheck-warning ((t (:underline (:color "grey60" :style wave)))))
  '(form-feed-line ((t (:strike-through "white"))))
+ '(company-scrollbar-bg ((t (:background "snow2"))))
+ '(company-scrollbar-fg ((t (:background "grey"))))
+ '(company-tooltip ((t (:foreground "black" :background "grey95"))))
  '(company-tooltip-selection ((t (:background "gold"))))
  '(yascroll:thumb-fringe ((t (:background "gold" :foreground "gold"))))
 
@@ -171,7 +172,6 @@
  '(avy-lead-face ((t (:inherit avy-lead-face-0))))
  '(avy-lead-face-0 ((t (:foreground "white" :background "#558b2f" :weight bold))))
  '(aw-leading-char-face ((t (:foreground "white" :background "#558b2f" :weight bold :height 1.7))))
- '(flycheck-warning ((t (:underline (:color "grey60" :style wave)))))
  '(hl-line ((t (:background "gold"))))
 
  '(imenu-list-entry-face-0 ((t (:foreground "black"))))
