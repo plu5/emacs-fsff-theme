@@ -134,7 +134,7 @@
  '(org-special-keyword ((t (:inherit shadow))))
  '(org-meta-line ((t (:foreground "grey72"))))
  '(outline-1 ((t (:slant italic :background "grey" :overline "grey40"))))
- '(outline-2 ((t (:slant italic :foreground "#918202"))))
+ '(outline-2 ((t (:slant italic :foreground "#7e6e02"))))
  '(outline-3 ((t (:slant italic :foreground "#983f01"))))
  '(outline-4 ((t (:slant italic :foreground "#90010f"))))
  '(outline-5 ((t (:slant italic :foreground "#880053"))))
