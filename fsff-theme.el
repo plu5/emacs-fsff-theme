@@ -162,6 +162,7 @@
  '(company-scrollbar-bg ((t (:background "ivory3"))))
  '(company-scrollbar-fg ((t (:background "snow"))))
  '(company-tooltip ((t (:foreground "black" :background "ivory4")))) ; background #c7c7b9
+ '(form-feed-line ((t (:strike-through "white"))))
  '(company-tooltip-selection ((t (:background "gold"))))
  '(yascroll:thumb-fringe ((t (:background "gold" :foreground "gold"))))
 
