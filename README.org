@@ -18,11 +18,7 @@ It is built around an ivory3 background, with support for:
 - [[https://github.com/bmag/imenu-list][Imenu-list]]
 - [[https://gitlab.com/iankelling/visible-mark][Visible mark]]
 
-This theme is meant for windowed emacs and looks bad in ~-nw~. You can set it to load only in windowed mode:
-#+BEGIN_SRC emacs-lisp
-  (if window-system
-      (load-theme 'fsff t))
-#+END_SRC
+This theme is meant for windowed emacs and looks bad in ~-nw~. Therefore, by default, the faces are only applied in graphic displays. You can set the variable ~fsff-display-class~ to change this behaviour.
 
 ** Usage
 #+BEGIN_SRC emacs-lisp
