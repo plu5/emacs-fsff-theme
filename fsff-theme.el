@@ -148,7 +148,7 @@ Example values
    `(org-code ((,c (:foreground "navy"))))
    `(org-latex-and-related ((,c (:foreground "#766458"))))
    `(org-special-keyword ((,c (:inherit shadow))))
-   `(outline-1 ((,c (:slant italic :background "grey" :overline "grey40"))))
+   `(outline-1 ((,c (:slant italic :background "grey"))))
    `(outline-2 ((,c (:slant italic :foreground "#7e6e02"))))
    `(outline-3 ((,c (:slant italic :foreground "#983f01"))))
    `(outline-4 ((,c (:slant italic :foreground "#90010f"))))
