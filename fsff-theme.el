@@ -134,7 +134,7 @@ Example values
    `(magit-tag ((,c (:background "ivory2" :foreground "Goldenrod4" :box (:line-width 1 :color "gray25")))))
    
    `(org-agenda-structure ((,c (:foreground "#5F7F5F"))))
-   `(org-agenda-date ((,c (:foreground "grey30"))))
+   `(org-agenda-date ((,c (:background "grey90" :foreground "grey30"))))
    `(org-agenda-date-weekend ((,c (:inherit org-agenda-date :slant italic))))
    `(org-agenda-date-today ((,c (:inherit org-agenda-date :weight bold))))
    `(org-agenda-calendar-event ((,c :foreground "#785607")))
