@@ -139,7 +139,7 @@ Example values
    `(org-agenda-date-today ((,c (:inherit org-agenda-date :weight bold))))
    `(org-agenda-calendar-event ((,c :foreground "#785607")))
    `(org-agenda-dimmed-todo-face ((,c (:background "yellow3" :foreground "black"))))
-   `(org-agenda-done ((((class color) (min-colors 16) (background light)) (:foreground "#9b9"))))
+   `(org-agenda-done ((,c (:foreground "grey50"))))
    `(org-block-begin-line ((,c (:foreground "#BDBDAE"))))
    `(org-block-end-line ((,c (:foreground "#BDBDAE"))))
    `(org-meta-line ((,c (:inherit shadow))))
