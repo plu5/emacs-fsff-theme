@@ -28,6 +28,7 @@ This theme is meant for windowed emacs and looks bad in ~-nw~. Therefore, by def
 Alternatively you can place it in folders already in the ~custom-theme-load-path~, like ~custom-theme-directory~ or the folder ~themes~ in ~data-directory~ (for me it is ~/usr/share/emacs/<version>/etc/themes/~).
 
 ** Suggested customisation
+*** Org source blocks
 I suggest you set ~org-src-block-faces~ variable, e.g.
 #+BEGIN_SRC emacs-lisp
   (setq org-src-block-faces '(("emacs-lisp" (:foreground "grey30"))
@@ -36,7 +37,12 @@ I suggest you set ~org-src-block-faces~ variable, e.g.
 #+END_SRC
 this will determine the face of the normal text in org source blocks. Otherwise the face used is ~org-block~ which I have set to inherit ~shadow~.
 
-And I should mention that for highlighting you need to set
+For syntax highlighting you need to set
 #+BEGIN_SRC emacs-lisp
   (setq org-src-fontify-natively t)
+#+END_SRC
+*** Org headings
+To get ~org-level-1~ background to fontify the entire line, you can set ~org-fontify-whole-heading-line~ to ~t~
+#+BEGIN_SRC emacs-lisp
+  (setq org-fontify-whole-heading-line t)
 #+END_SRC
