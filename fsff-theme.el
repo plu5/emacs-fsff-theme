@@ -58,6 +58,7 @@ Example values
    `(vertical-border ((,c (:foreground "ivory4"))))
 
    `(highlight ((,c (:background "white"))))
+   `(region ((,c (:background "lightgoldenrod2"))))
    `(trailing-whitespace ((,c (:background "gray90"))))
 
    `(mode-line ((,c (:foreground "grey30" :background "gold" :box nil))))
