@@ -29,14 +29,6 @@ Alternatively you can place it in folders already in the ~custom-theme-load-path
 
 ** Suggested customisation
 *** Org source blocks
-I suggest you set ~org-src-block-faces~ variable, e.g.
-#+BEGIN_SRC emacs-lisp
-  (setq org-src-block-faces '(("emacs-lisp" (:foreground "grey30"))
-                              ("python" (:foreground "grey30"))
-                              ("bash" (:foreground "grey30"))))
-#+END_SRC
-this will determine the face of the normal text in org source blocks. Otherwise the face used is ~org-block~ which I have set to inherit ~shadow~.
-
 For syntax highlighting you need to set
 #+BEGIN_SRC emacs-lisp
   (setq org-src-fontify-natively t)

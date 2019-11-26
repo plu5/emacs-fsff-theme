@@ -143,6 +143,7 @@ Example values
    `(org-agenda-done ((,c (:foreground "grey50"))))
    `(org-block-begin-line ((,c (:foreground "#BDBDAE"))))
    `(org-block-end-line ((,c (:foreground "#BDBDAE"))))
+   `(org-block ((,c (:foreground "grey30"))))
    `(org-meta-line ((,c (:inherit shadow))))
    `(org-checkbox ((,c (:weight ultrabold :foreground "white"))))
    `(org-hide ((,c (:background "#c8c8bb" :foreground "#c8c8bb"))))
